@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Recognition Attendance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Face Recognition Attendance System</h1>
+    <div id="video-container">
+        <img src="{{ url_for('video_feed') }}" alt="Video Stream">
+    </div>
+    <a href="{{ url_for('attendance') }}" target="_blank">View Attendance Log</a>
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* static/style.css */
+
+body { 
+    font-family: sans-serif; 
+    text-align: center; 
+    margin: 40px; 
+    background-color: #f4f4f9;
+}
+
+h1 { 
+    color: #333; 
+}
+
+#video-container {
+    border: 5px solid #333;
+    width: 640px;
+    height: 480px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+img { 
+    width: 100%; 
+    height: 100%; 
+}
+
+a { 
+    font-size: 1.2em; 
+    text-decoration: none; 
+    color: #007BFF;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
